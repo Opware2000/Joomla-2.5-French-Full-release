@@ -242,7 +242,7 @@ class JInstallationModelConfiguration extends JModelLegacy
 		{
 			$query = $db->getQuery(true);
 			$query->update('#__users');
-			$query->set('name = '.$db->quote('Super User'));
+			$query->set('name = '.$db->quote('Super Utilisateur'));
 			$query->set('username = '.$db->quote(trim($options->admin_user)));
 			$query->set('email = '.$db->quote($options->admin_email));
 			$query->set('password = '.$db->quote($cryptpass));
@@ -267,7 +267,7 @@ class JInstallationModelConfiguration extends JModelLegacy
 			$query->insert('#__users', true);
 			$query->columns($columns);
 
-			$query->values($db->quote($userId) . ', '. $db->quote('Super User') . ', ' . $db->quote(trim($options->admin_user)) . ', '.
+			$query->values($db->quote($userId) . ', '. $db->quote('Super Utilisateur') . ', ' . $db->quote(trim($options->admin_user)) . ', '.
 				$db->quote($options->admin_email). ', '. $db->quote($cryptpass). ', '. $db->quote('deprecated').', '.$db->quote('0').', '.$db->quote('1').', '.
 				$db->quote($installdate).', '.$db->quote($nullDate).', '.$db->quote('0').', '.$db->quote(''));
 		}
