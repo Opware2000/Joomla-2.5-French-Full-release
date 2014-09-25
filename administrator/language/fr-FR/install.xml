@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <extension version="2.5" client="administrator" type="language" method="upgrade">
 	<name>French (fr-FR)</name>
-    <tag>fr-FR</tag>
-	<version>2.5.24.1</version>
-	<creationDate>27-07-2014</creationDate>
+	<tag>fr-FR</tag>
+	<version>2.5.25.1</version>
+	<creationDate>01-03-2014</creationDate>
 	<author>French translation team : joomla.fr</author>
 	<authorEmail>traduction@joomla.fr</authorEmail>
 	<authorUrl>www.joomla.fr</authorUrl>
@@ -11,7 +11,7 @@
 	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
 	<description>fr-FR administrator language</description>
 	<files>
-        <filename>index.html</filename>
+		<filename>index.html</filename>
 		<filename>fr-FR.com_admin.ini</filename>
 		<filename>fr-FR.com_admin.sys.ini</filename>
 		<filename>fr-FR.com_banners.ini</filename>
